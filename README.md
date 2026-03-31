@@ -1,6 +1,6 @@
-📊 Stock Agent
+📊 **Stock Agent**
 AI-powered Telegram bot that delivers a daily morning briefing on your stock portfolio — news, earnings, dividends, and macro data, all summarized by an LLM.
-How It Works
+**How It Works**
 Every morning at a scheduled time, the agent:
 
 Fetches news headlines for each stock in your portfolio via NewsAPI
@@ -9,11 +9,11 @@ Pulls macro data — EUR/USD rate, US 10-Year Treasury yield, S&P 500 level
 Sends everything to an LLM (via OpenRouter) which produces a concise, scannable summary
 Delivers the briefing to your Telegram chat
 
-Portfolio
+**Portfolio**
 The default portfolio includes stocks like Alphabet, Amazon, Meta, Novo Nordisk, Banco Santander, Telefónica, and others. Edit config.py to customize it with your own tickers.
 Tech Stack
 
-Python 3.10+
+**Python 3.10+**
 OpenRouter — LLM inference (default model: google/gemma-3-12b-it:free)
 NewsAPI — news headlines
 Finnhub — earnings & dividend calendar
